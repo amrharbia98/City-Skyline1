@@ -319,3 +319,18 @@ body {
     );
   }
 }
+
+@media (max-width: 600px) {
+  .background-buildings, .foreground-buildings {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .building-wrap, .bb1, .fb1, .bb2, .fb2 {
+    width: 80% !important;
+    height: auto !important;
+    margin-bottom: 20px;
+  }
+}
